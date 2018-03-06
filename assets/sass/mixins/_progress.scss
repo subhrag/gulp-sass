@@ -1,0 +1,15 @@
+@mixin progress ($progress-map) {
+    background-color: map-get($progress-map, back-color);
+    border-radius: map-get($progress-map, border-radius) +3px;
+}
+
+
+/*@mixin progress ($condition) {
+    @if($condition==true) {
+        background-color: $progress-color;
+    }
+    @else {
+        background-color: $color-white;
+    }
+    border-radius: $border-radius+3px;
+}*/

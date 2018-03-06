@@ -1,0 +1,29 @@
+.logo {
+    width: 80%;
+    &__rect {
+        width: 200px;
+        border: 2px solid $border-color;
+        padding: 20px;
+        margin: 0 auto;
+    }
+}
+
+.hex {
+    display: $display-flex;
+    margin-top: 20px;
+    &__left {
+        margin-right: 2%;
+    }
+    &__right,
+    &__left {
+        display: $display-flex;
+        flex-direction: column;
+    }
+    &__right--padding-top {
+        padding-top: 18%;
+    }
+    &__img {
+        height: 60px;
+        margin: 10px;
+    }
+}

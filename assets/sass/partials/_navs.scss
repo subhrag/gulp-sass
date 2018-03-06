@@ -1,0 +1,14 @@
+.navigation {
+    &__list {
+        display: $display-flex;
+        -webkit-padding-start: 5px;
+        -moz-padding-start: 5px;
+    }
+    &__item--left,
+    &__item--right {
+        margin-right: 35px;
+    }
+    &__link {
+        @include nav_link($link-color);
+    }
+}

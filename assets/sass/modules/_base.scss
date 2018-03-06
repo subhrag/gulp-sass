@@ -1,0 +1,27 @@
+.main-section {
+    width: 100%;
+}
+
+.section-margin {
+    margin-top: 45px;
+}
+
+.intro {
+    display: $display-flex;
+    justify-content: space-around;
+}
+
+.intro-section,
+.sub-section,
+.form-section {
+    flex-wrap: wrap;
+}
+
+.button-section {
+    display: $display-flex;
+    flex-direction: row-reverse;
+    width: 96.5%;
+    height: 50px;
+    margin-left: 16px;
+    margin-top: 2px;
+}

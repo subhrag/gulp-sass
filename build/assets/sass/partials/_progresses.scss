@@ -1,0 +1,37 @@
+.skill-item {
+    display: block;
+    &__left,
+    &__right {
+        display: inline-block;
+    }
+}
+
+progress[value] {
+    height: 6px;
+    width: 450px;
+    vertical-align: middle;
+    margin-left: 1%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    //appearance: none;
+    border: none; //remove default border in Firefox.
+}
+
+progress[value]::-webkit-progress-value {
+    //  $condition: true;
+    $progress-map: map-merge($progress-map, $update-progress);
+    @include progress($progress-map);
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+progress[value]::-webkit-progress-bar {
+    @include progress($progress-map);
+    box-shadow: 0 1px 5px $progress-color inset;
+}
+
+
+/*progress[value]::-moz-progress-bar {
+    background-color: $color-white;
+    border-radius: $border-radius + 3px;
+    box-shadow: 0 1px 5px $progress-color inset;
+}*/

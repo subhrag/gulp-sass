@@ -1,0 +1,7 @@
+.submit-button {
+    background-color: $back-color-gray;
+    border: none;
+    color: $color-white;
+    padding: 15px 32px;
+    @include corners;
+}

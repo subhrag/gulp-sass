@@ -1,0 +1,25 @@
+.title-section {
+    height: 270px;
+    width: 95%;
+    background-color: $back-color-gray;
+    display: $display-flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    padding-top: 120px;
+}
+
+.title-header {
+    text-align: center;
+}
+
+.text-color {
+    color: $color-white;
+}
+
+.sub-title {
+    display: $display-flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}

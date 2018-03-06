@@ -1,0 +1,23 @@
+//vendors
+@import 'vendor/normalize';
+//mixins
+@import 'mixins/borders';
+@import 'mixins/back-n-width';
+@import 'mixins/nav-link';
+@import 'mixins/progress';
+//modules
+@import 'modules/variables';
+@import 'modules/reset';
+@import 'modules/base';
+//partials
+@import 'partials/header';
+@import 'partials/navs';
+@import 'partials/slides';
+@import 'partials/titles';
+@import 'partials/article';
+@import 'partials/aside';
+@import 'partials/images';
+@import 'partials/progresses';
+@import 'partials/inputs';
+@import 'partials/buttons';
+@import 'partials/footer';

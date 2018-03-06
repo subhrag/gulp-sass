@@ -1,0 +1,4 @@
+@mixin nav_link ($color) {
+    color: $color;
+    text-decoration: none;
+}
